@@ -1,68 +1,4 @@
-Name: Sriram Pandi
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Project related information and instructions:
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-What operating system and IDE you used to run and compile your code:
-
-Operating system- Windows
-IDE- Microsoft visual studio
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Instructions for running your executables:
-
-The following folders were added-
-
-filter.h - contains all the required header files.
-filters.cpp - contains all the relavent functions for various operations.
-vidDisplay.cpp - contains the main function where the functions are called.
-imgDisplay.cpp - conatains the code to display the live video 
-
-To run the task-1 have the imgDisplay.cpp in a folder. Build it and run the code(after adding the required libraries and their paths) to see the image located at a specified path.
-
-To run all the remaining tasks starting from task-2, have the filter.h, filters.cpp and vidDisplay.cpp files in a folder. 
-(after adding the required libraries and their paths) Build and run the code.By pressing the following keys the respective outputs will be visible:
-
-g - greyscale video (Task-3)
-h - alternate greyscale video (Task-4)
-b - blur video (Task-5)
-x - sobelx video (Task-6)
-y - sobely video (Task-6)
-m - gradient magnitude video (Task-7)
-l - blurquantized video (Task-8)
-c - cartoon Live video( Task -9)
-n - negative video(Another effect Task-10)
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Instructions for testing any extensions you completed:
-
-Following the above steps and after running the second folder with vidDisplay.cpp by pressing the below mentioned keys 
-respective outputs are displayed.
-
-The following keys are for extensions:
-e - color_correction and thresholding ( Extension-1 ) 
-w - popart_processing ( Extension-2 )
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-Whether you are using any time travel days, and how many:
-
-Utilising one ( 1 ) travel day after one week permission for lately joining the classes. Submitting on 02-04-2023.
-
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Of course! Let's delve deeper into each step:
-
----
-
-## **Real-Time Image and Video Processing with OpenCV**
-By: Sriram Pandi
+## **Real-Time Filtering of Image and Video Processing with OpenCV**
 
 ### **Description:**
 This project, developed using OpenCV, covers a wide range of techniques in real-time image and video processing. It spans from foundational operations like image reading to more complex filters that can be interactively applied to live video streams.
@@ -127,6 +63,47 @@ This project, developed using OpenCV, covers a wide range of techniques in real-
     - **Technique**: Manipulates the hue, saturation, and value (HSV) channels of the image, applying distinct transformations based on hue ranges.
     - **Interaction**: Press 'w' to see the pop art effect.
 
+# Project related information and instructions:
+
+What operating system and IDE you used to run and compile your code:
+
+Operating system- Windows
+IDE- Microsoft visual studio
+
+# Instructions for running your executables:
+
+The following folders were added-
+
+filter.h - contains all the required header files.
+filters.cpp - contains all the relavent functions for various operations.
+vidDisplay.cpp - contains the main function where the functions are called.
+imgDisplay.cpp - conatains the code to display the live video 
+
+To run the task-1 have the imgDisplay.cpp in a folder. Build it and run the code(after adding the required libraries and their paths) to see the image located at a specified path.
+
+To run all the remaining tasks starting from task-2, have the filter.h, filters.cpp and vidDisplay.cpp files in a folder. 
+(after adding the required libraries and their paths) Build and run the code.By pressing the following keys the respective outputs will be visible:
+
+g - greyscale video (Task-3)
+h - alternate greyscale video (Task-4)
+b - blur video (Task-5)
+x - sobelx video (Task-6)
+y - sobely video (Task-6)
+m - gradient magnitude video (Task-7)
+l - blurquantized video (Task-8)
+c - cartoon Live video( Task -9)
+n - negative video(Another effect Task-10)
+
+
+# Instructions for testing any extensions you completed:
+
+Following the above steps and after running the second folder with vidDisplay.cpp by pressing the below mentioned keys 
+respective outputs are displayed.
+
+The following keys are for extensions:
+e - color_correction and thresholding ( Extension-1 ) 
+w - popart_processing ( Extension-2 )
+
 ### **Reflection:**
 This project served as a comprehensive exploration of image processing techniques using OpenCV. The hands-on experience provided insights into data types, basic C++ syntax, pointer operations, and the intricacies of the OpenCV library.
 
@@ -134,7 +111,3 @@ This project served as a comprehensive exploration of image processing technique
 - The pop art inspiration was derived from [Creating Pop Art using OpenCV and Python](https://www.analytics-link.com/post/2019/07/11/creating-pop-art-using-opencv-and-python).
 - OpenAI's ChatGPT provided clarifications and guidance for specific concepts.
 - Srinivas Peri, a course-mate, provided collaborative discussions on coding challenges.
-
----
-
-This detailed description should give a more in-depth understanding of each step and its significance in the project.
