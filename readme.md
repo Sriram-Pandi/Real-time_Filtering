@@ -12,3 +12,7 @@ c++ vidDisplay.cpp filter.cpp -o vidDisplay $(pkg-config --cflags --libs opencv4
 ```
 
 Use `q` to quit.
+
+## Webcam controls
+
+Press `g` to toggle grayscale, `b` for blur, `x` or `y` for Sobel derivatives, `m` for gradient magnitude, `l` for quantization, `c` for the cartoon effect, `s` to save a frame as `captured_image.jpg`, and `q` to quit. Start the webcam viewer with no key pressed and verify that the raw feed displays before trying filters.

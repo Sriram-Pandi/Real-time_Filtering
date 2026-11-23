@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
     cv::namedWindow("Video_o", 1); // identifies a window
     cv::Mat frame;
    
-    char var;
+    char var = '\0';
     cv::Mat sx;
     cv::Mat sy;
 
@@ -56,7 +56,10 @@ will be changed to that key and in the next piece of code conditional statements
         switch (key)
         {
         case 'g':
-        {var = 'g'; }
+        {
+            display_gray = !display_gray;
+            var = '\0';
+        }
         break;
         case 'h':
         {var = 'h'; }
@@ -98,10 +101,6 @@ will be changed to that key and in the next piece of code conditional statements
         else if (key == 's') {
             cv::imwrite("captured_image.jpg", frame);
             printf("Image saved to file\n");
-        }
-        else if (var == 'g') {
-            display_gray = !display_gray;
-
         }
         else if (var == 'h') {
 
